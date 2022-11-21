@@ -1,25 +1,25 @@
 <template>
     <div>
-
+        JavascriptAxios.vue
     </div>
 </template>
 
 <script>
 import { randqinghua } from '@/api/api'
 export default {
-    data(){
-        return{
+    data() {
+        return {
 
         }
     },
-    methods:{
+    methods: {
 
     },
-    created(){
-        let randqinghua_data = {'format':'json'}
-        randqinghua(randqinghua_data).then((res)=>{
+    created() {
+        let randqinghua_data = { 'format': 'json' }
+        randqinghua(randqinghua_data).then((res) => {
             console.log(res)
-        }).catch((error)=>{
+        }).catch((error) => {
             console.log(error);
         })
     }
