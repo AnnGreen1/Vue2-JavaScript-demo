@@ -1,6 +1,6 @@
 <template>
     <div>
-        Notice
+        NoticeIndex.vue
     </div>
 </template>
   

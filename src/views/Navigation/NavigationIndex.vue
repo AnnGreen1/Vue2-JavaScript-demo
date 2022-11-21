@@ -1,6 +1,6 @@
 <template>
     <div>
-        Navigation
+        NavigationIndex.vue
     </div>
 </template>
   

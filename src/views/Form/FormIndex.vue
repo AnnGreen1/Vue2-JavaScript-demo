@@ -1,6 +1,6 @@
 <template>
     <div>
-        Form
+        FormIndex.vue
     </div>
 </template>
   

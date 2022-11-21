@@ -1,6 +1,6 @@
 <template>
     <div>
-        Data
+        DataIndex.vue
     </div>
 </template>
   
