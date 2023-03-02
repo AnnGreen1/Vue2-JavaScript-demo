@@ -9,6 +9,7 @@ import formRoute from './routes/Form/index'
 import navigationRoute from './routes/Navigation/index'
 import noticeRoute from './routes/Notice/index'
 import othersRoute from './routes/Others/index'
+import devRoute from './routes/Dev/index'
 
 Vue.use(VueRouter)
 
@@ -47,7 +48,8 @@ const routes = [
   ...formRoute,
   ...navigationRoute,
   ...noticeRoute,
-  ...othersRoute
+  ...othersRoute,
+  ...devRoute
 ]
 
 const router = new VueRouter({
