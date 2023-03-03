@@ -10,6 +10,16 @@ export const randqinghua = data => {
     })
 };
 
+// 随机土味情话
+export const wenjianliu = ()=> {
+
+    return request({
+        url: `/localhost/allPHPcode/test/test.xlsx`,
+        method: "post",
+        responseType:'blob'
+    })
+};
+
 
 /**
  * ...
