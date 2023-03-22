@@ -14,5 +14,10 @@ const devRoute = [
     name: "Dev-TableShake",
     component: () => import("@/views/Dev/TableShake.vue"),
   },
+  {
+    path: "/dev/flatarray",
+    name: "dev-flatarray",
+    component: () => import("@/views/Dev/FlatArray.vue"),
+  },
 ];
 export default devRoute;
