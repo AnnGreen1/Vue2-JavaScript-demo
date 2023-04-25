@@ -19,5 +19,10 @@ const devRoute = [
     name: "dev-flatarray",
     component: () => import("@/views/Dev/FlatArray.vue"),
   },
+  {
+    path: "/dev/NativeEvent",
+    name: "dev-NativeEvent",
+    component: () => import("@/views/Dev/NativeEvent.vue"),
+  },
 ];
 export default devRoute;
