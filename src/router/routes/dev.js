@@ -9,5 +9,10 @@ const dev = [
     name: "dev-nextTick",
     component: () => import("@/views/Dev/nextTick.vue"),
   },
+  {
+    path: "/dev/awaitaxios",
+    name: "dev-awaitaxios",
+    component: () => import("@/views/Dev/AwaitAxios.vue"),
+  },
 ];
 export default dev;
