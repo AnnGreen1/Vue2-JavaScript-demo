@@ -29,5 +29,10 @@ const dev = [
     name: "dev-cookiedemo",
     component: () => import("@/views/Dev/CookieDemo.vue"),
   },
+  {
+    path: "/dev/ParentSonLifeCycle",
+    name: "dev-ParentSonLifeCycle",
+    component: () => import("@/views/Dev/ParentSonLifeCycle.vue"),
+  },
 ];
 export default dev;
