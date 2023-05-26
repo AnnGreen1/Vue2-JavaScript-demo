@@ -34,5 +34,10 @@ const dev = [
     name: "dev-ParentSonLifeCycle",
     component: () => import("@/views/Dev/ParentSonLifeCycle.vue"),
   },
+  {
+    path: "/dev/DataComputed",
+    name: "dev-DataComputed",
+    component: () => import("@/views/Dev/DataComputed.vue"),
+  },
 ];
 export default dev;
