@@ -24,5 +24,15 @@ const devRoute = [
     name: "dev-NativeEvent",
     component: () => import("@/views/Dev/NativeEvent.vue"),
   },
+  {
+    path: "/dev/SelectAllother",
+    name: "dev-SelectAllother",
+    component: () => import("@/views/Dev/SelectAllother.vue"),
+  },
+  {
+    path: "/dev/SelectAllMyself",
+    name: "dev-SelectAllMyself",
+    component: () => import("@/views/Dev/SelectAllMyself.vue"),
+  },
 ];
 export default devRoute;
