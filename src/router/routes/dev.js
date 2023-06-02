@@ -39,5 +39,10 @@ const dev = [
     name: "dev-DataComputed",
     component: () => import("@/views/Dev/DataComputed.vue"),
   },
+  {
+    path: "/dev/ResponsiveObject",
+    name: "dev-ResponsiveObject",
+    component: () => import("@/views/Dev/ResponsiveObject.vue"),
+  },
 ];
 export default dev;

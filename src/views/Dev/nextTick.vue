@@ -5,6 +5,7 @@
     </div>
     <button @click="setname">setname</button>
     <button @click="setnamenexttick">setnamenexttick</button>
+    <button @click="setnametwicenexttick">setnametwicenexttick</button>
   </div>
 </template>
 
@@ -26,6 +27,13 @@ export default {
       this.$nextTick(() => {
         console.log(this.$refs.name.innerHTML);
       });
+    },
+    setnametwicenexttick() {
+      this.name = "Mingyue Yuan";
+      this.$nextTick(() => {
+        console.log(this.$refs.name.innerHTML);
+      });
+      this.name = "袁大头";
     },
   },
   created() {
