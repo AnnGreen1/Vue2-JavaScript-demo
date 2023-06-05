@@ -20,18 +20,23 @@ export default {
     changetitle() {
       this.title = "标题";
     },
+    testfun(){
+      console.log('test function...');
+    }
   },
   beforeCreate() {
     console.log("beforeCreate");
     console.log(this.title);
     console.log(this.$refs.titleref);
     console.log(document.getElementsByClassName("lifecycle"));
+    this.testfun() // this.testfun is not a function
   },
   created() {
     console.log("created");
     console.log(this.title);
     console.log(this.$refs.titleref);
     console.log(document.getElementsByClassName("lifecycle"));
+    this.testfun()
   },
   beforeMount() {
     console.log("beforeMount");
