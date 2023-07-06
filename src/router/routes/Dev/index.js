@@ -34,5 +34,10 @@ const devRoute = [
     name: "dev-SelectAllMyself",
     component: () => import("@/views/Dev/SelectAllMyself.vue"),
   },
+  {
+    path: "/dev/CheckboxColor",
+    name: "dev-CheckboxColor",
+    component: () => import("@/views/Dev/CheckboxColor.vue"),
+  },
 ];
 export default devRoute;
