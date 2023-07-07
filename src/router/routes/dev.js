@@ -44,5 +44,13 @@ const dev = [
     name: "dev-ResponsiveObject",
     component: () => import("@/views/Dev/ResponsiveObject.vue"),
   },
+  /**
+   * @description:如何利用伪元素添加icon
+   */
+  {
+    path: "/dev/PreIcon",
+    name: "dev-PreIcon",
+    component: () => import("@/views/Dev/PreIcon.vue"),
+  },
 ];
 export default dev;
