@@ -1,19 +1,27 @@
 <template>
-    <div>
-        <el-button>默认按钮</el-button>
-        <el-button type="primary">主要按钮</el-button>
-        <el-button type="success">成功按钮</el-button>
-        <el-button type="info">信息按钮</el-button>
-        <el-button type="warning">警告按钮</el-button>
-        <el-button type="danger">危险按钮</el-button>
-        <el-button type="text">文字按钮</el-button>
-    </div>
+  <div>
+    <el-button>默认按钮</el-button>
+    <el-button type="primary">主要按钮</el-button>
+    <el-button type="success">成功按钮</el-button>
+    <el-button type="info">信息按钮</el-button>
+    <el-button type="warning">警告按钮</el-button>
+    <el-button type="danger">危险按钮</el-button>
+    <el-button type="text">文字按钮</el-button>
+    <el-button plain :style="styleObj">朴素按钮</el-button>
+  </div>
 </template>
-  
-<script>
-export default {};
-</script>
-  
-<style lang="scss" scoped>
 
-</style>
+<script>
+export default {
+    data(){
+        return {
+            styleObj:{
+                color:'blue',
+                border:'blue solid 1px'
+            }
+        }
+    }
+};
+</script>
+
+<style lang="scss" scoped></style>
