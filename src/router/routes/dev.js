@@ -52,5 +52,13 @@ const dev = [
     name: "dev-PreIcon",
     component: () => import("@/views/Dev/PreIcon.vue"),
   },
+  /**
+   * @description:过滤器使用
+   */
+  {
+    path: "/dev/FiltersDemo",
+    name: "dev-FiltersDemo",
+    component: () => import("@/views/Dev/FiltersDemo.vue"),
+  },
 ];
 export default dev;
