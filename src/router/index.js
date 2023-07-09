@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 
 import commonroute from './routes/commonroute'
 import dev from './routes/dev'
+import layout from './routes/layout'
 
 Vue.use(VueRouter)
 
@@ -30,7 +31,8 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/JavascriptAxios.vue')
   },
   ...commonroute,
-  ...dev
+  ...dev,
+  ...layout
 ]
 
 const router = new VueRouter({
