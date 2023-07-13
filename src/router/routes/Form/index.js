@@ -1,10 +1,10 @@
 const formRoute = [
-    {
-        path:'/FormIndex',
-        name:'FormIndex',
-        component: () => import('@/views/Form/FormIndex.vue')
-    },
-    /**
+  {
+    path: '/FormIndex',
+    name: 'FormIndex',
+    component: () => import('@/views/Form/FormIndex.vue')
+  },
+  /**
    * Radio
    */
   {
@@ -21,6 +21,14 @@ const formRoute = [
     path: "/Form/Radio/input",
     name: "Form-Radio-input",
     component: () => import("@/views/Form/Radio/input.vue"),
+  },
+  /**
+   * Select
+   */
+  {
+    path: "/Form/Select/value-key",
+    name: "Form-Select-value-key",
+    component: () => import("@/views/Form/Select/value-key.vue"),
   },
 ];
 export default formRoute;
