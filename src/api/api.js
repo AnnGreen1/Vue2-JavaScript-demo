@@ -11,6 +11,14 @@ export const randqinghua = data => {
     })
 };
 
+export const env_development_randqinghua = data => {
+    data = data || {};
+    return request({
+        url: process.env.VUE_APP_BASE_URL + '/api/rand.qinghua',
+        method: "post",
+        data
+    })
+};
 
 /**
  * ...
