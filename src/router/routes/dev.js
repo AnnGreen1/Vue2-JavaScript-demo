@@ -60,5 +60,13 @@ const dev = [
     name: "dev-FiltersDemo",
     component: () => import("@/views/Dev/FiltersDemo.vue"),
   },
+  /**
+   * @description:重复路由报错的问题
+   */
+  {
+    path: "/dev/RepeatRoute",
+    name: "dev-RepeatRoute",
+    component: () => import("@/views/Dev/RepeatRoute.vue"),
+  },
 ];
 export default dev;
