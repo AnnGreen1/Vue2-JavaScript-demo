@@ -39,5 +39,13 @@ const devRoute = [
     name: "dev-CheckboxColor",
     component: () => import("@/views/Dev/CheckboxColor.vue"),
   },
+  /**
+   * @description:给表格加自动生成的序号
+   */
+  {
+    path: "/dev/TableSerialnumber",
+    name: "dev-TableSerialnumber",
+    component: () => import("@/views/Dev/TableSerialnumber.vue"),
+  },
 ];
 export default devRoute;
