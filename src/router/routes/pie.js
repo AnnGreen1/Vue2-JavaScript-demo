@@ -7,6 +7,9 @@ const pie = [
     name: "pie",
     component: () => import("@/views/CommonRoute/CommonRoute.vue"),
   },
+  /**
+   * @description:环形图
+   */
   {
     path: "/pie/DoughnutChart",
     name: "pie-DoughnutChart",

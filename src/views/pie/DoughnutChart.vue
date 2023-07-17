@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="echart" id="main" :style="myChartStyle"></div>
+    <div class="echart" id="DoughnutChart" :style="myChartStyle"></div>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     initEcharts() {
-      var chartDom = document.getElementById("main");
+      var chartDom = document.getElementById("DoughnutChart");
       var myChart = echarts.init(chartDom);
       var option;
       option = {
