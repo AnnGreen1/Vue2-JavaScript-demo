@@ -30,5 +30,15 @@ const formRoute = [
     name: "Form-Select-value-key",
     component: () => import("@/views/Form/Select/value-key.vue"),
   },
+  {
+    path: "/Form/Upload/submit",
+    name: "Form-Upload-submit",
+    component: () => import("@/views/Form/Upload/submit.vue"),
+  },
+  {
+    path: "/Form/Upload/submitnew",
+    name: "Form-Upload-submitnew",
+    component: () => import("@/views/Form/Upload/submitnew.vue"),
+  },
 ];
 export default formRoute;
