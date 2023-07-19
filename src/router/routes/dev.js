@@ -68,5 +68,13 @@ const dev = [
     name: "dev-RepeatRoute",
     component: () => import("@/views/Dev/RepeatRoute.vue"),
   },
+  /**
+   * @description:预览pdf文件
+   */
+  {
+    path: "/dev/PreviewPDF",
+    name: "dev-PreviewPDF",
+    component: () => import("@/views/Dev/PreviewPDF.vue"),
+  },
 ];
 export default dev;
