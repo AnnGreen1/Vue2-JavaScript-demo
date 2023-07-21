@@ -76,5 +76,29 @@ const dev = [
     name: "dev-PreviewPDF",
     component: () => import("@/views/Dev/PreviewPDF.vue"),
   },
+  /**
+   * @description:预览docs文件
+   */
+  {
+    path: "/dev/PreviewDocs",
+    name: "dev-PreviewDocs",
+    component: () => import("@/views/Dev/PreviewDocs.vue"),
+  },
+   /**
+   * @description:插槽简单使用
+   */
+  {
+    path: "/dev/SlotDemo",
+    name: "dev-SlotDemo",
+    component: () => import("@/views/Dev/SlotDemo.vue"),
+  },
+   /**
+   * @description:注意点，vue2对数组的响应式只是通过重写方法实现，如果直接赋值是达不到响应式的效果的，需要使用 set
+   */
+  {
+    path: "/dev/thisset",
+    name: "dev-thisset",
+    component: () => import("@/views/Dev/ThisSet.vue"),
+  },
 ];
 export default dev;
