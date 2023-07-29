@@ -4,11 +4,17 @@ const dev = [
     name: "dev-ObjectAttr",
     component: () => import("@/views/Dev/ObjectAttr.vue"),
   },
+  /**
+   * @description:用nextTick解决vue异步更新获取dom问题
+   *
   {
     path: "/dev/nextTick",
     name: "dev-nextTick",
     component: () => import("@/views/Dev/nextTick.vue"),
   },
+   /**
+   * @description:等待一个请求，如何解决请求结果先后顺序不一致问题
+   */
   {
     path: "/dev/awaitaxios",
     name: "dev-awaitaxios",
@@ -93,7 +99,7 @@ const dev = [
     component: () => import("@/views/Dev/SlotDemo.vue"),
   },
    /**
-   * @description:注意点，vue2对数组的响应式只是通过重写方法实现，如果直接赋值是达不到响应式的效果的，需要使用 set
+   * @description:vue2对数组的响应式；注意点，vue2对数组的响应式只是通过重写方法实现，如果直接赋值是达不到响应式的效果的，需要使用 set
    */
   {
     path: "/dev/thisset",
