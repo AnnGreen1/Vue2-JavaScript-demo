@@ -1,0 +1,10 @@
+{
+    "code":200,
+    "data":{
+        "name":"Mingyue Yuan",
+        "university":"AUST",
+        "age":18,
+        "distance":"∞"
+    },
+    "msg":"successfully"
+}

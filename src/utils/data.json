@@ -1,0 +1,34 @@
+{
+    "code": 200,
+    "data": {
+        "Yuan": {
+            "name": "Mingyue Yuan",
+            "university": "AUST",
+            "age": 18,
+            "distance": "∞"
+        },
+        "fields": [
+            {
+                "key": "085400" ,
+                "value": "电子信息"
+            },
+            {
+                "key": "085401",
+                "value": "新一代电子信息技术（含量子技术等）"
+            },
+            {
+                "key": "085402",
+                "value": "通信工程（含宽带网络、移动通信等）"
+            },
+            {
+                "key": "085403",
+                "value": "集成电路工程"
+            },
+            {
+                "key": "085404",
+                "value": "计算机技术"
+            }
+        ]
+    },
+    "msg": "successfully"
+}

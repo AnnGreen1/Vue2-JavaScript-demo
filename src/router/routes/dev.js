@@ -90,21 +90,35 @@ const dev = [
     name: "dev-PreviewDocs",
     component: () => import("@/views/Dev/PreviewDocs.vue"),
   },
-   /**
-   * @description:插槽简单使用
-   */
+  /**
+  * @description:插槽简单使用
+  */
   {
     path: "/dev/SlotDemo",
     name: "dev-SlotDemo",
     component: () => import("@/views/Dev/SlotDemo.vue"),
   },
-   /**
-   * @description:vue2对数组的响应式；注意点，vue2对数组的响应式只是通过重写方法实现，如果直接赋值是达不到响应式的效果的，需要使用 set
-   */
+  /**
+  * @description:vue2对数组的响应式；注意点，vue2对数组的响应式只是通过重写方法实现，如果直接赋值是达不到响应式的效果的，需要使用 set
+  */
   {
     path: "/dev/thisset",
     name: "dev-thisset",
     component: () => import("@/views/Dev/ThisSet.vue"),
   },
+  /**
+   * @description:使用本地json文件进行mock
+   */
+  {
+    path: "/dev/JsonMock",
+    name: "dev-JsonMock",
+    component: () => import("@/views/Dev/JsonMock.vue"),
+  },
+  /**
+  * @description:前端下载本地文件
+  */
+  /**
+   * @description:侦听props
+   */
 ];
 export default dev;
