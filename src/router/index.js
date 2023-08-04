@@ -5,6 +5,7 @@ import HomeView from '../views/HomeView.vue'
 import commonroute from './routes/commonroute'
 import line from './routes/line'
 import pie from './routes/pie'
+import dev from './routes/dev'
 
 Vue.use(VueRouter)
 
@@ -37,7 +38,8 @@ const routes = [
   },
   ...commonroute,
   ...line,
-  ...pie
+  ...pie,
+  ...dev
 ]
 
 const router = new VueRouter({

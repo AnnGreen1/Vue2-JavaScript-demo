@@ -10,10 +10,10 @@ const pie = [
   /**
    * @description:环形图
    */
-  {
-    path: "/pie/DoughnutChart",
-    name: "pie-DoughnutChart",
-    component: () => import("@/views/pie/DoughnutChart.vue"),
-  },
+  // {
+  //   path: "/pie/DoughnutChart",
+  //   name: "pie-DoughnutChart",
+  //   component: () => import("@/views/pie/DoughnutChart.vue"),
+  // },
 ];
 export default pie;
