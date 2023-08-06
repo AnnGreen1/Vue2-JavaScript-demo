@@ -120,5 +120,15 @@ const dev = [
   /**
    * @description:侦听props
    */
+  {
+    path: "/dev/RouterQuery/LeaveRoute",
+    name: "dev-RouterQuery-LeaveRoute",
+    component: () => import("@/views/Dev/RouterQuery/LeaveRoute.vue"),
+  },
+  {
+    path: "/dev/RouterQuery/EntryRoute",
+    name: "dev-RouterQuery-EntryRoute",
+    component: () => import("@/views/Dev/RouterQuery/EntryRoute.vue"),
+  },
 ];
 export default dev;
