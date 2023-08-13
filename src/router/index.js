@@ -5,6 +5,7 @@ import HomeView from '../views/HomeView.vue'
 import commonroute from './routes/commonroute'
 import dev from './routes/dev'
 import layout from './routes/layout'
+import components from './routes/components'
 
 Vue.use(VueRouter)
 
@@ -41,7 +42,8 @@ const routes = [
   },
   ...commonroute,
   ...dev,
-  ...layout
+  ...layout,
+  ...components
 ]
 
 const router = new VueRouter({
