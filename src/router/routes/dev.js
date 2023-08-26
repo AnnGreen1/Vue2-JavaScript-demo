@@ -117,9 +117,22 @@ const dev = [
   /**
   * @description:前端下载本地文件
   */
+  {
+    path: "/dev/DownloadFile",
+    name: "dev-DownloadFile",
+    component: () => import("@/views/Dev/DownloadFile.vue"),
+  },
   /**
    * @description:侦听props
    */
+  {
+    path: "/dev/WatchProps",
+    name: "dev-WatchProps",
+    component: () => import("@/views/Dev/WatchProps.vue"),
+  },
+  /**
+  * @description:获取路由参数 this.$route.query
+  */
   {
     path: "/dev/RouterQuery/LeaveRoute",
     name: "dev-RouterQuery-LeaveRoute",
@@ -158,6 +171,14 @@ const dev = [
     path: "/dev/Dev/CornerIcon",
     name: "dev-Dev-CornerIcon",
     component: () => import("@/views/Dev/CornerIcon.vue"),
+  },
+  /**
+   * @description:如何让普通div里可以编辑
+   */
+  {
+    path: "/dev/Dev/EditableDiv",
+    name: "dev-Dev-EditableDiv",
+    component: () => import("@/views/Dev/EditableDiv.vue"),
   },
 ];
 export default dev;
