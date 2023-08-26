@@ -47,5 +47,13 @@ const devRoute = [
     name: "dev-TableSerialnumber",
     component: () => import("@/views/Dev/TableSerialnumber.vue"),
   },
+   /**
+   * @description:通过值来反选中checkbox
+   */
+   {
+    path: "/dev/CheckboxChecked",
+    name: "dev-CheckboxChecked",
+    component: () => import("@/views/Dev/CheckboxChecked.vue"),
+  },
 ];
 export default devRoute;
