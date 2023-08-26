@@ -130,5 +130,34 @@ const dev = [
     name: "dev-RouterQuery-EntryRoute",
     component: () => import("@/views/Dev/RouterQuery/EntryRoute.vue"),
   },
+  /**
+   * @description:为了让路由跳转之后再跳转回来还有之前的数据怎么办？直接把 this._data 保存到浏览器本地存储
+   */
+  {
+    path: "/dev/KeepData/LeaveView",
+    name: "dev-KeepData-LeaveView",
+    component: () => import("@/views/Dev/KeepData/LeaveView.vue"),
+  },
+  {
+    path: "/dev/KeepData/EntryView",
+    name: "dev-KeepData-EntryView",
+    component: () => import("@/views/Dev/KeepData/EntryView.vue"),
+  },
+  /**
+   * @description:布尔类型的props
+   */
+  {
+    path: "/dev/Dev/BooleanProps",
+    name: "dev-Dev-BooleanProps",
+    component: () => import("@/views/Dev/BooleanProps.vue"),
+  },
+  /**
+   * @description:如何在一个div的边框上加一个图标
+   */
+  {
+    path: "/dev/Dev/CornerIcon",
+    name: "dev-Dev-CornerIcon",
+    component: () => import("@/views/Dev/CornerIcon.vue"),
+  },
 ];
 export default dev;
