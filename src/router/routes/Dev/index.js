@@ -47,13 +47,21 @@ const devRoute = [
     name: "dev-TableSerialnumber",
     component: () => import("@/views/Dev/TableSerialnumber.vue"),
   },
-   /**
-   * @description:通过值来反选中checkbox
-   */
-   {
+  /**
+  * @description:通过值来反选中checkbox
+  */
+  {
     path: "/dev/CheckboxChecked",
     name: "dev-CheckboxChecked",
     component: () => import("@/views/Dev/CheckboxChecked.vue"),
+  },
+  /**
+   * @description:在dialog里的组件不会随着dialog的关闭而销毁，如何破解？
+   */
+  {
+    path: "/dev/DialogWithComponents",
+    name: "dev-DialogWithComponents",
+    component: () => import("@/views/Dev/DialogWithComponents.vue"),
   },
 ];
 export default devRoute;

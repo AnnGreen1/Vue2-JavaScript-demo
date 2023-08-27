@@ -30,12 +30,9 @@ http.interceptors.response.use(res => {
 
     const data = res.data
     if (res.status == 200) {
-        if (data.status == 1 || data.status == 1000) {
-            return Promise.resolve(data)
-        } else {
-            // console.log(data)
-            return Promise.reject(data)
-        }
+        return Promise.resolve(data)
+    } else {
+        return Promise.reject(data)
     }
 }, error => {
     if (error.response.status) {
