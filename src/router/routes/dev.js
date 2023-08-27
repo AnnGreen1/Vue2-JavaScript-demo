@@ -196,5 +196,13 @@ const dev = [
     name: "dev-RefDemo",
     component: () => import("@/views/Dev/RefDemo.vue"),
   },
+  /**
+   * @description:ref怎么用？
+   */
+  {
+    path: "/dev/MockjsDemo",
+    name: "dev-MockjsDemo",
+    component: () => import("@/views/Dev/MockjsDemo.vue"),
+  },
 ];
 export default dev;

@@ -4,6 +4,8 @@ import router from './router'
 
 import './style/index.scss'
 
+require('./Mock')
+
 Vue.config.productionTip = false
 
 new Vue({
