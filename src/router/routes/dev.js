@@ -180,5 +180,13 @@ const dev = [
     name: "dev-Dev-EditableDiv",
     component: () => import("@/views/Dev/EditableDiv.vue"),
   },
+  /**
+   * @description:如何通过直接对比dom来判断内容是否内修改？
+   */
+  {
+    path: "/dev/CheckDom",
+    name: "dev-CheckDom",
+    component: () => import("@/views/Dev/CheckDom.vue"),
+  },
 ];
 export default dev;
