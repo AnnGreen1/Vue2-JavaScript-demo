@@ -188,5 +188,13 @@ const dev = [
     name: "dev-CheckDom",
     component: () => import("@/views/Dev/CheckDom.vue"),
   },
+  /**
+   * @description:ref怎么用？
+   */
+  {
+    path: "/dev/RefDemo",
+    name: "dev-RefDemo",
+    component: () => import("@/views/Dev/RefDemo.vue"),
+  },
 ];
 export default dev;
