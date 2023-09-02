@@ -11,5 +11,10 @@ module.exports = defineConfig({
         // 添加其他的路径别名
       }
     }
+  },
+  devServer: {
+    proxy: {
+      
+    }
   }
 })

@@ -1,0 +1,15 @@
+{
+    "code": 1,
+    "data": [
+        {
+            "path": "/DynamicRoutes/One",
+            "name": "DynamicRoutes-One",
+            "component": "/DynamicRoutes/OneView.vue"
+        },
+        {
+            "path": "/DynamicRoutes/Other",
+            "name": "DynamicRoutes-Other",
+            "component": "/DynamicRoutes/OtherView.vue"
+        }
+    ]
+}

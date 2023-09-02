@@ -1,0 +1,35 @@
+{
+    "msg": "类似这种。。。",
+    "code": 200,
+    "data": [
+        {
+            "name": "/xxxxxxxxxxx",
+            "path": "/xxxxxxxxxxxx",
+            "component": "bbbbbbbb",
+            "meta": {
+                "title": "xxxxxxxx",
+                "icon": "xxicon",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/xxxxxxxxxxxx/yyyyyyyyyy",
+                    "path": "/yyyyyyyyyy",
+                    "hidden": false,
+                    "component": "aaaaaaaaaaaa",
+                    "meta": {
+                        "title": "标题标题标题标题。。。",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                       ...
+                    ],
+                    "redirect": "/screen/group-evaluation/list"
+                }
+            ]
+        }
+    ]
+}

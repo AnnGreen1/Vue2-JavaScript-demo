@@ -6,7 +6,7 @@ const dev = [
   },
   /**
    * @description:用nextTick解决vue异步更新获取dom问题
-   *
+   */
   {
     path: "/dev/nextTick",
     name: "dev-nextTick",
@@ -197,12 +197,20 @@ const dev = [
     component: () => import("@/views/Dev/RefDemo.vue"),
   },
   /**
-   * @description:ref怎么用？
+   * @description:rmockjs怎么用？
    */
   {
     path: "/dev/MockjsDemo",
     name: "dev-MockjsDemo",
     component: () => import("@/views/Dev/MockjsDemo.vue"),
+  },
+  /**
+   * @description:动态路由怎么用？假设默认只有这一个路由
+   */
+  {
+    path: "/DynamicRoutes",
+    name: "DynamicRoutes",
+    component: () => import('@/views/DynamicRoutes/IndexView.vue')
   },
 ];
 export default dev;

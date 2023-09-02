@@ -7,6 +7,14 @@ export const sleeptens = () => {
     return request({
         url: `http://localhost/allphpcode/test/sleep.php`,
         method: "post",
-        timeout:50000
+        timeout: 50000
+    })
+};
+
+
+export const DynamicRoutes = () => {
+    return request({
+        url: `http://localhost/DynamicRoutes`,
+        method: "get",
     })
 };

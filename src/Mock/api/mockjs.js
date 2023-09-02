@@ -8,8 +8,9 @@ Mock.mock('http://localhost:3000/api/user', 'get', {
         age: '@integer(20, 50)',
     },
 });
+
 // 启动模拟数据拦截
 Mock.setup({
     timeout: '200-600'
 });
-console.log(Mock);
+// console.log(Mock);

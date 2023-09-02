@@ -1,0 +1,1743 @@
+{
+    "msg": "操作成功",
+    "code": 200,
+    "data": [
+        {
+            "name": "/wei",
+            "path": "/wei",
+            "hidden": false,
+            "component": "weixinhao",
+            "alwaysShow": true,
+            "meta": {
+                "title": "测试菜单",
+                "icon": "sssssss",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/wei/wei/xin",
+                    "path": "/wei/wei/xin",
+                    "hidden": false,
+                    "component": "xin",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "测试菜单2-1",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/wei/wei/xin/wei/xin/hao/chen",
+                            "path": "/wei/wei/xin/wei/xin/hao/chen",
+                            "hidden": false,
+                            "component": "ddddd",
+                            "meta": {
+                                "title": "测试菜单3-1",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/wei/wei/xin123131",
+                            "path": "/wei/wei/xin123131",
+                            "hidden": false,
+                            "component": "11111111111111111111111",
+                            "meta": {
+                                "title": "测试菜单3-2",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "/wei1111111",
+                    "path": "/wei1111111",
+                    "hidden": false,
+                    "component": "11111111",
+                    "meta": {
+                        "title": "测试菜单2-2",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "/screen",
+            "path": "/screen",
+            "hidden": false,
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "心理筛查",
+                "icon": "el-icon-menu-1",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/screen/group-evaluation",
+                    "path": "/screen/group-evaluation",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "量表普查筛查",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/group-evaluation/list",
+                            "path": "/screen/group-evaluation/list",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/group-evaluation/add",
+                            "path": "/screen/group-evaluation/add",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation/edit",
+                            "meta": {
+                                "title": "新增团测",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/group-evaluation/edit",
+                            "path": "/screen/group-evaluation/edit",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/group-evaluation/detail",
+                            "path": "/screen/group-evaluation/detail",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation/detail",
+                            "meta": {
+                                "title": "团测详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/group-evaluation/delete",
+                            "path": "/screen/group-evaluation/delete",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation/delete",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/group-evaluation/record",
+                            "path": "/screen/group-evaluation/record",
+                            "hidden": true,
+                            "component": "screen/groupEvaluation/recordList",
+                            "meta": {
+                                "title": "测评记录",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/group-evaluation/list"
+                },
+                {
+                    "name": "/screen/class-monitor",
+                    "path": "/screen/class-monitor",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "课堂监测",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/class-monitor/list",
+                            "path": "/screen/class-monitor/list",
+                            "hidden": true,
+                            "component": "screen/classMonitor",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/class-monitor/detail",
+                            "path": "/screen/class-monitor/detail",
+                            "hidden": true,
+                            "component": "screen/classMonitor/detail",
+                            "meta": {
+                                "title": "详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/class-monitor/list"
+                },
+                {
+                    "name": "/screen/class-emotion",
+                    "path": "/screen/class-emotion",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "课堂情绪识别",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/class-emotion",
+                            "path": "/screen/class-emotion",
+                            "hidden": true,
+                            "component": "AppMain",
+                            "alwaysShow": true,
+                            "meta": {
+                                "title": "实时课堂",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            },
+                            "children": [
+                                {
+                                    "name": "/screen/class-emotion/list",
+                                    "path": "/screen/class-emotion/list",
+                                    "hidden": true,
+                                    "component": "screen/classEmotion/real",
+                                    "meta": {
+                                        "title": "查看",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    }
+                                },
+                                {
+                                    "name": "/screen/class-emotion/detail",
+                                    "path": "/screen/class-emotion/detail",
+                                    "hidden": true,
+                                    "component": "AppMain",
+                                    "alwaysShow": true,
+                                    "meta": {
+                                        "title": "课堂详情",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "/screen/class-emotion/detail",
+                                            "path": "/screen/class-emotion/detail",
+                                            "hidden": true,
+                                            "component": "screen/classEmotion/realDetail",
+                                            "meta": {
+                                                "title": "查看",
+                                                "icon": "#",
+                                                "noCache": false,
+                                                "link": null
+                                            }
+                                        },
+                                        {
+                                            "name": "/screen/class-emotion/alarm",
+                                            "path": "/screen/class-emotion/alarm",
+                                            "hidden": true,
+                                            "component": "screen/classEmotion/alarmDetail",
+                                            "meta": {
+                                                "title": "告警详情",
+                                                "icon": "#",
+                                                "noCache": false,
+                                                "link": null
+                                            }
+                                        }
+                                    ],
+                                    "redirect": "/screen/class-emotion/detail/list"
+                                }
+                            ],
+                            "redirect": "/screen/class-emotion/list"
+                        },
+                        {
+                            "name": "/screen/class-emotion/history",
+                            "path": "/screen/class-emotion/history",
+                            "hidden": true,
+                            "component": "AppMain",
+                            "alwaysShow": true,
+                            "meta": {
+                                "title": "历史课堂",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            },
+                            "children": [
+                                {
+                                    "name": "/screen/class-emotion/history",
+                                    "path": "/screen/class-emotion/history",
+                                    "hidden": true,
+                                    "component": "screen/classEmotion/history",
+                                    "meta": {
+                                        "title": "查看",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    }
+                                },
+                                {
+                                    "name": "/screen/class-emotion/history/detail",
+                                    "path": "/screen/class-emotion/history/detail",
+                                    "hidden": true,
+                                    "component": "AppMain",
+                                    "alwaysShow": true,
+                                    "meta": {
+                                        "title": "课堂详情",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "/screen/class-emotion/history/detail",
+                                            "path": "/screen/class-emotion/history/detail",
+                                            "hidden": true,
+                                            "component": "screen/classEmotion/historyDetail",
+                                            "meta": {
+                                                "title": "查看",
+                                                "icon": "#",
+                                                "noCache": false,
+                                                "link": null
+                                            }
+                                        },
+                                        {
+                                            "name": "/screen/class-emotion/history/alarm",
+                                            "path": "/screen/class-emotion/history/alarm",
+                                            "hidden": true,
+                                            "component": "screen/classEmotion/alarmDetail",
+                                            "meta": {
+                                                "title": "告警详情",
+                                                "icon": "#",
+                                                "noCache": false,
+                                                "link": null
+                                            }
+                                        }
+                                    ],
+                                    "redirect": "/screen/class-emotion/history/detail/list"
+                                }
+                            ],
+                            "redirect": "/screen/class-emotion/history/list"
+                        }
+                    ],
+                    "redirect": "/screen/class-emotion/list"
+                },
+                {
+                    "name": "/screen/admission-school",
+                    "path": "/screen/admission-school",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "入校情绪识别",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/admission-school/list",
+                            "path": "/screen/admission-school/list",
+                            "hidden": true,
+                            "component": "screen/admissionSchool",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/admission-school/detail",
+                            "path": "/screen/admission-school/detail",
+                            "hidden": true,
+                            "component": "screen/admissionSchool/detail",
+                            "meta": {
+                                "title": "详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/admission-school/list"
+                },
+                {
+                    "name": "/screen/teacher-observe",
+                    "path": "/screen/teacher-observe",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "老师观察填报",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/teacher-observe/list",
+                            "path": "/screen/teacher-observe/list",
+                            "hidden": true,
+                            "component": "screen/teacherObserve",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/teacher-observe/add",
+                            "path": "/screen/teacher-observe/add",
+                            "hidden": true,
+                            "component": "screen/teacherObserve/edit",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/teacher-observe/edit",
+                            "path": "/screen/teacher-observe/edit",
+                            "hidden": true,
+                            "component": "screen/teacherObserve/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/teacher-observe/detail",
+                            "path": "/screen/teacher-observe/detail",
+                            "hidden": true,
+                            "component": "screen/teacherObserve/detail",
+                            "meta": {
+                                "title": "详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/teacher-observe/delete",
+                            "path": "/screen/teacher-observe/delete",
+                            "hidden": true,
+                            "component": "screen/teacherObserve/delete",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/teacher-observe/list"
+                },
+                {
+                    "name": "/screen/data-collision",
+                    "path": "/screen/data-collision",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "数据碰撞识别",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/data-collision/list",
+                            "path": "/screen/data-collision/list",
+                            "hidden": true,
+                            "component": "screen/dataCollision",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/detail",
+                            "path": "/screen/data-collision/detail",
+                            "hidden": true,
+                            "component": "screen/dataCollision/detail",
+                            "meta": {
+                                "title": "详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/similar",
+                            "path": "/screen/data-collision/similar",
+                            "hidden": true,
+                            "component": "screen/dataCollision/similar",
+                            "meta": {
+                                "title": "画像详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/delete",
+                            "path": "/screen/data-collision/delete",
+                            "hidden": true,
+                            "component": "screen/dataCollision/delete",
+                            "meta": {
+                                "title": "删除碰撞记录",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/source",
+                            "path": "/screen/data-collision/source",
+                            "hidden": true,
+                            "component": "screen/dataCollision/source",
+                            "meta": {
+                                "title": "数据源管理",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/import",
+                            "path": "/screen/data-collision/import",
+                            "hidden": true,
+                            "component": "screen/dataCollision/import",
+                            "meta": {
+                                "title": "成绩导入",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/data-collision/source/delete",
+                            "path": "/screen/data-collision/source/delete",
+                            "hidden": false,
+                            "component": "screen/dataCollision/source/delete",
+                            "meta": {
+                                "title": "删除数据源",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/data-collision/list"
+                },
+                {
+                    "name": "/screen/psychological-conversation",
+                    "path": "/screen/psychological-conversation",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "心理谈话识别",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/screen/psychological-conversation/list",
+                            "path": "/screen/psychological-conversation/list",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/psychological-conversation/add",
+                            "path": "/screen/psychological-conversation/add",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation/edit",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/psychological-conversation/edit",
+                            "path": "/screen/psychological-conversation/edit",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/psychological-conversation/detail",
+                            "path": "/screen/psychological-conversation/detail",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation/detail",
+                            "meta": {
+                                "title": "填报详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/psychological-conversation/record",
+                            "path": "/screen/psychological-conversation/record",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation/record",
+                            "meta": {
+                                "title": "记录表",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/screen/psychological-conversation/delete",
+                            "path": "/screen/psychological-conversation/delete",
+                            "hidden": true,
+                            "component": "screen/psychologicalConversation/delete",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/screen/psychological-conversation/list"
+                }
+            ]
+        },
+        {
+            "name": "/early-warning",
+            "path": "/early-warning",
+            "hidden": true,
+            "component": "AppMain",
+            "alwaysShow": true,
+            "meta": {
+                "title": "心理预警",
+                "icon": "el-icon-menu-2",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/early-warning/list",
+                    "path": "/early-warning/list",
+                    "hidden": true,
+                    "component": "earlyWarning",
+                    "meta": {
+                        "title": "心理预警",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    }
+                }
+            ],
+            "redirect": "/early-warning/list"
+        },
+        {
+            "name": "/recordmanage",
+            "path": "/recordmanage",
+            "hidden": false,
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "档案管理",
+                "icon": "el-icon-menu-3",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/recordmanage",
+                    "path": "/recordmanage",
+                    "hidden": true,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "档案管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/recordmanage/list",
+                            "path": "/recordmanage/list",
+                            "hidden": true,
+                            "component": "recordManage",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/recordmanage/detail",
+                            "path": "/recordmanage/detail",
+                            "hidden": true,
+                            "component": "recordManage/detail",
+                            "meta": {
+                                "title": "档案详情",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/recordmanage/list"
+                }
+            ]
+        },
+        {
+            "name": "/info",
+            "path": "/info",
+            "hidden": false,
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "信息管理",
+                "icon": "el-icon-menu-4",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/info/user",
+                    "path": "/info/user",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "账号信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/user/list",
+                            "path": "/info/user/list",
+                            "hidden": true,
+                            "component": "info/user",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": true,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/add",
+                            "path": "/info/user/add",
+                            "hidden": true,
+                            "component": "info/user/edit",
+                            "meta": {
+                                "title": "新增账号",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/edit",
+                            "path": "/info/user/edit",
+                            "hidden": true,
+                            "component": "info/user/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/delete",
+                            "path": "/info/user/delete",
+                            "hidden": true,
+                            "component": "info/user",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/import",
+                            "path": "/info/user/import",
+                            "hidden": true,
+                            "component": "info/user/importUser",
+                            "meta": {
+                                "title": "导入账号",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/reset",
+                            "path": "/info/user/reset",
+                            "hidden": true,
+                            "component": "info/user",
+                            "meta": {
+                                "title": "重置密码",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/user/close",
+                            "path": "/info/user/close",
+                            "hidden": true,
+                            "component": "info/user",
+                            "meta": {
+                                "title": "关闭",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/user/list"
+                },
+                {
+                    "name": "/info/unit",
+                    "path": "/info/unit",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "单位信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/unit/list",
+                            "path": "/info/unit/list",
+                            "hidden": true,
+                            "component": "info/unit",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/unit/add",
+                            "path": "/info/unit/add",
+                            "hidden": true,
+                            "component": "info/unit/edit",
+                            "meta": {
+                                "title": "新增单位",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/unit/edit",
+                            "path": "/info/unit/edit",
+                            "hidden": true,
+                            "component": "info/unit/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/unit/list"
+                },
+                {
+                    "name": "/info/role",
+                    "path": "/info/role",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "角色信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/role/list",
+                            "path": "/info/role/list",
+                            "hidden": true,
+                            "component": "info/role",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/role/add",
+                            "path": "/info/role/add",
+                            "hidden": true,
+                            "component": "info/role/edit",
+                            "meta": {
+                                "title": "新增角色",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/role/edit",
+                            "path": "/info/role/edit",
+                            "hidden": true,
+                            "component": "info/role/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/role/list"
+                },
+                {
+                    "name": "/info/class",
+                    "path": "/info/class",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "班级信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/class/list",
+                            "path": "/info/class/list",
+                            "hidden": true,
+                            "component": "info/class",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/class/add",
+                            "path": "/info/class/add",
+                            "hidden": true,
+                            "component": "info/class/add",
+                            "meta": {
+                                "title": "新增班级",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/class/edit",
+                            "path": "/info/class/edit",
+                            "hidden": true,
+                            "component": "info/class/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/class/delete",
+                            "path": "/info/class/delete",
+                            "hidden": true,
+                            "component": "info/class",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/class/goup",
+                            "path": "/info/class/goup",
+                            "hidden": true,
+                            "component": "info/class/goup",
+                            "meta": {
+                                "title": "批量升班",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/class/student",
+                            "path": "/info/class/student",
+                            "hidden": false,
+                            "component": "AppMain",
+                            "alwaysShow": true,
+                            "meta": {
+                                "title": "学生管理",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            },
+                            "children": [
+                                {
+                                    "name": "/info/class/student",
+                                    "path": "/info/class/student",
+                                    "hidden": true,
+                                    "component": "info/class/student",
+                                    "meta": {
+                                        "title": "查看",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    }
+                                },
+                                {
+                                    "name": "/info/class/student/add",
+                                    "path": "/info/class/student/add",
+                                    "hidden": true,
+                                    "component": "info/class/addStudent",
+                                    "meta": {
+                                        "title": "添加学生",
+                                        "icon": "#",
+                                        "noCache": false,
+                                        "link": null
+                                    }
+                                }
+                            ],
+                            "redirect": "/info/class/student/list"
+                        }
+                    ],
+                    "redirect": "/info/class/list"
+                },
+                {
+                    "name": "/info/student",
+                    "path": "/info/student",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "学生信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/student/list",
+                            "path": "/info/student/list",
+                            "hidden": true,
+                            "component": "info/student",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/student/add",
+                            "path": "/info/student/add",
+                            "hidden": true,
+                            "component": "info/student/edit",
+                            "meta": {
+                                "title": "新增学生",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/student/mod",
+                            "path": "/info/student/mod",
+                            "hidden": true,
+                            "component": "info/student/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/student/delete",
+                            "path": "/info/student/delete",
+                            "hidden": true,
+                            "component": "info/student",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/student/import",
+                            "path": "/info/student/import",
+                            "hidden": true,
+                            "component": "info/student/import",
+                            "meta": {
+                                "title": "导入",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/student/list"
+                },
+                {
+                    "name": "/info/device",
+                    "path": "/info/device",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "设备信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/device/list",
+                            "path": "/info/device/list",
+                            "hidden": true,
+                            "component": "info/device",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/device/add",
+                            "path": "/info/device/add",
+                            "hidden": true,
+                            "component": "info/device/edit",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/device/edit",
+                            "path": "/info/device/edit",
+                            "hidden": true,
+                            "component": "info/device/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/info/device/delete",
+                            "path": "/info/device/delete",
+                            "hidden": true,
+                            "component": "info/device",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/device/list"
+                },
+                {
+                    "name": "/info/personal",
+                    "path": "/info/personal",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "个人信息管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/info/personal/list",
+                            "path": "/info/personal/list",
+                            "hidden": true,
+                            "component": "info/personal",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/info/personal/list"
+                }
+            ]
+        },
+        {
+            "name": "/scale",
+            "path": "/scale",
+            "hidden": false,
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "量表管理",
+                "icon": "el-icon-menu-5",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/scale/common",
+                    "path": "/scale/common",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "系统量表管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/scale/common/list",
+                            "path": "/scale/common/list",
+                            "hidden": true,
+                            "component": "scale/common",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/common/mod",
+                            "path": "/scale/common/mod",
+                            "hidden": true,
+                            "component": "scale/common/edit",
+                            "meta": {
+                                "title": "修改量表分类",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/common/add",
+                            "path": "/scale/common/add",
+                            "hidden": true,
+                            "component": "scale/common/edit",
+                            "meta": {
+                                "title": "新增量表分类",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/common/editScale",
+                            "path": "/scale/common/editScale",
+                            "hidden": true,
+                            "component": "scale/common/editScale",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/common/delete",
+                            "path": "/scale/common/delete",
+                            "hidden": true,
+                            "component": "scale/common",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/common/manage",
+                            "path": "/scale/common/manage",
+                            "hidden": true,
+                            "component": "scale/common/scaleList",
+                            "meta": {
+                                "title": "量表信息列表",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/scale/common/list"
+                },
+                {
+                    "name": "/scale/custom",
+                    "path": "/scale/custom",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "自定义量表管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/scale/custom/list",
+                            "path": "/scale/custom/list",
+                            "hidden": true,
+                            "component": "scale/custom",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/custom/create",
+                            "path": "/scale/custom/create",
+                            "hidden": true,
+                            "component": "scale/custom/create",
+                            "meta": {
+                                "title": "创建使用对象",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/custom/editObj",
+                            "path": "/scale/custom/editObj",
+                            "hidden": true,
+                            "component": "scale/custom/create",
+                            "meta": {
+                                "title": "编辑使用对象",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/custom/delete",
+                            "path": "/scale/custom/delete",
+                            "hidden": true,
+                            "component": "scale/custom",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/custom/set",
+                            "path": "/scale/custom/set",
+                            "hidden": true,
+                            "component": "scale/custom/scaleType",
+                            "meta": {
+                                "title": "设置量表分类",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/scale/custom/list"
+                },
+                {
+                    "name": "/scale/group",
+                    "path": "/scale/group",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "套餐组配置管理",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/scale/group/list",
+                            "path": "/scale/group/list",
+                            "hidden": true,
+                            "component": "scale/group",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/group/add",
+                            "path": "/scale/group/add",
+                            "hidden": true,
+                            "component": "scale/group/edit",
+                            "meta": {
+                                "title": "新增套餐组",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/group/edit",
+                            "path": "/scale/group/edit",
+                            "hidden": true,
+                            "component": "scale/group/edit",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/scale/group/delete",
+                            "path": "/scale/group/delete",
+                            "hidden": true,
+                            "component": "scale/group/delete",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/scale/group/list"
+                }
+            ]
+        },
+        {
+            "name": "/config",
+            "path": "/config",
+            "hidden": false,
+            "component": "Layout",
+            "alwaysShow": true,
+            "meta": {
+                "title": "配置管理",
+                "icon": "el-icon-menu-6",
+                "noCache": false,
+                "link": null
+            },
+            "children": [
+                {
+                    "name": "/config/yichang",
+                    "path": "/config/yichang",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "课堂情绪识别",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/config/yichang/list",
+                            "path": "/config/yichang/list",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/yichang/edit1",
+                            "path": "/config/yichang/edit1",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/yichang/edit2",
+                            "path": "/config/yichang/edit2",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/yichang/delete",
+                            "path": "/config/yichang/delete",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/yichang/set",
+                            "path": "/config/yichang/set",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "设置",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/yichang/close",
+                            "path": "/config/yichang/close",
+                            "hidden": true,
+                            "component": "config/yichang",
+                            "meta": {
+                                "title": "关闭",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/config/yichang/list"
+                },
+                {
+                    "name": "/config/dangan",
+                    "path": "/config/dangan",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "心理健康档案系统",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/config/dangan/list",
+                            "path": "/config/dangan/list",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/dangan/edit2",
+                            "path": "/config/dangan/edit2",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/dangan/edit1",
+                            "path": "/config/dangan/edit1",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "编辑",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/dangan/delete",
+                            "path": "/config/dangan/delete",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/dangan/set",
+                            "path": "/config/dangan/set",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "设置",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/dangan/close",
+                            "path": "/config/dangan/close",
+                            "hidden": true,
+                            "component": "config/dangan",
+                            "meta": {
+                                "title": "关闭",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/config/dangan/list"
+                },
+                {
+                    "name": "/config/other",
+                    "path": "/config/other",
+                    "hidden": false,
+                    "component": "AppMain",
+                    "alwaysShow": true,
+                    "meta": {
+                        "title": "其他配置",
+                        "icon": "#",
+                        "noCache": false,
+                        "link": null
+                    },
+                    "children": [
+                        {
+                            "name": "/config/other/list",
+                            "path": "/config/other/list",
+                            "hidden": true,
+                            "component": "config/other",
+                            "meta": {
+                                "title": "查看",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/other/edit",
+                            "path": "/config/other/edit",
+                            "hidden": true,
+                            "component": "config/other",
+                            "meta": {
+                                "title": "新增",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        },
+                        {
+                            "name": "/config/other/delete",
+                            "path": "/config/other/delete",
+                            "hidden": true,
+                            "component": "config/other",
+                            "meta": {
+                                "title": "删除",
+                                "icon": "#",
+                                "noCache": false,
+                                "link": null
+                            }
+                        }
+                    ],
+                    "redirect": "/config/other/list"
+                }
+            ]
+        }
+    ]
+}
