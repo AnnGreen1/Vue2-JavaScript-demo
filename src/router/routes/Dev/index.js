@@ -63,13 +63,21 @@ const devRoute = [
     name: "dev-DialogWithComponents",
     component: () => import("@/views/Dev/DialogWithComponents.vue"),
   },
-   /**
-   * @description:在dialog里的组件不会随着dialog的关闭而销毁，如何破解？
-   */
-   {
+  /**
+  * @description:在dialog里的组件不会随着dialog的关闭而销毁，如何破解？
+  */
+  {
     path: "/dev/CollapseView",
     name: "dev-CollapseView",
     component: () => import("@/views/Dev/CollapseView.vue"),
+  },
+  /**
+   * @description:实现一个斑马纹进度条
+   */
+  {
+    path: "/dev/ZebraStripeProgress",
+    name: "dev-ZebraStripeProgress",
+    component: () => import("@/views/Dev/ZebraStripeProgress.vue"),
   },
 ];
 export default devRoute;
