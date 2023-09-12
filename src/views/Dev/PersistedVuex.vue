@@ -5,6 +5,9 @@
 </template>
 
 <script>
+/**
+ * 代码实现的重点在 main.js line10 - line26
+ */
 import { mapGetters } from "vuex";
 export default {
   data() {
