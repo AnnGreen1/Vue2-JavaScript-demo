@@ -14,7 +14,7 @@
 /**
  * 总结：必需使用v-bind，否则会被认为是字符串
  */
-import GainBoolpropsVue from "./components/GainBoolprops.vue";
+import GainBoolpropsVue from "@/views/Dev/components/GainBoolprops.vue";
 export default {
   components: {
     GainBoolpropsVue,
