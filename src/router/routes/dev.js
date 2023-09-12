@@ -12,9 +12,9 @@ const dev = [
     name: "dev-nextTick",
     component: () => import("@/views/Dev/nextTick.vue"),
   },
-   /**
-   * @description:等待一个请求，如何解决请求结果先后顺序不一致问题
-   */
+  /**
+  * @description:等待一个请求，如何解决请求结果先后顺序不一致问题
+  */
   {
     path: "/dev/awaitaxios",
     name: "dev-awaitaxios",
@@ -160,24 +160,24 @@ const dev = [
    * @description:布尔类型的props
    */
   {
-    path: "/dev/Dev/BooleanProps",
-    name: "dev-Dev-BooleanProps",
+    path: "/dev/BooleanProps",
+    name: "dev-BooleanProps",
     component: () => import("@/views/Dev/BooleanProps.vue"),
   },
   /**
    * @description:如何在一个div的边框上加一个图标
    */
   {
-    path: "/dev/Dev/CornerIcon",
-    name: "dev-Dev-CornerIcon",
+    path: "/dev/CornerIcon",
+    name: "dev-CornerIcon",
     component: () => import("@/views/Dev/CornerIcon.vue"),
   },
   /**
    * @description:如何让普通div里可以编辑
    */
   {
-    path: "/dev/Dev/EditableDiv",
-    name: "dev-Dev-EditableDiv",
+    path: "/dev/EditableDiv",
+    name: "dev-EditableDiv",
     component: () => import("@/views/Dev/EditableDiv.vue"),
   },
   /**
@@ -211,6 +211,22 @@ const dev = [
     path: "/DynamicRoutes",
     name: "DynamicRoutes",
     component: () => import('@/views/DynamicRoutes/IndexView.vue')
+  },
+  /**
+  * @description:如何持久化vuex
+  */
+  {
+    path: "/Dev/PersistedVuex",
+    name: "Dev-PersistedVuex",
+    component: () => import('@/views/Dev/PersistedVuex.vue')
+  },
+  /**
+  * @description:如何改placeholder样式
+  */
+  {
+    path: "/Dev/PlaceholderStyle",
+    name: "Dev-PlaceholderStyle",
+    component: () => import('@/views/Dev/PlaceholderStyle.vue')
   },
 ];
 export default dev;
