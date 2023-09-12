@@ -64,7 +64,7 @@ const devRoute = [
     component: () => import("@/views/Dev/DialogWithComponents.vue"),
   },
   /**
-  * @description:在dialog里的组件不会随着dialog的关闭而销毁，如何破解？
+  * @description:改一下折叠面板的样式
   */
   {
     path: "/dev/CollapseView",
@@ -78,6 +78,14 @@ const devRoute = [
     path: "/dev/ZebraStripeProgress",
     name: "dev-ZebraStripeProgress",
     component: () => import("@/views/Dev/ZebraStripeProgress.vue"),
+  },
+  /**
+   * @description:给message添加自定义类名修改样式
+   */
+  {
+    path: "/dev/ErrorMessage",
+    name: "dev-ErrorMessage",
+    component: () => import("@/views/Dev/ErrorMessage.vue"),
   },
 ];
 export default devRoute;
