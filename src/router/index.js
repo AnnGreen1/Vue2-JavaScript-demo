@@ -2,10 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
-import commonroute from './routes/commonroute'
-import dev from './routes/dev'
-import layout from './routes/layout'
-import components from './routes/components'
+import commonroute from '@/router/routes/commonroute'
+import dev from '@/router/routes/dev'
+import layout from '@/router/routes/layout'
+import components from '@/router/routes/components'
 
 Vue.use(VueRouter)
 
@@ -39,6 +39,22 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/JavascriptAxios.vue')
+  },
+  /**
+   * @description:动态路由怎么用？假设默认只有这一个路由
+   */
+  {
+    path: "/DynamicRoutes",
+    name: "DynamicRoutes",
+    component: () => import('@/views/DynamicRoutes/IndexView.vue')
+  },
+  /**
+   * @description:mpa 多页应用
+   */
+  {
+    path: "/MpaOther",
+    name: "MpaOther",
+    component: () => import('@/views/MpaOther/IndexView.vue')
   },
   ...commonroute,
   ...dev,
