@@ -18,3 +18,10 @@ export const DynamicRoutes = () => {
         method: "get",
     })
 };
+
+export const RsponseResult = () => {
+    return request({
+        url: `http://localhost/RsponseResult`,
+        method: "post",
+    })
+};

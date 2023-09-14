@@ -197,7 +197,7 @@ const dev = [
     component: () => import("@/views/Dev/RefDemo.vue"),
   },
   /**
-   * @description:rmockjs怎么用？
+   * @description:mockjs怎么用？
    */
   {
     path: "/dev/MockjsDemo",
@@ -205,12 +205,12 @@ const dev = [
     component: () => import("@/views/Dev/MockjsDemo.vue"),
   },
   /**
-   * @description:动态路由怎么用？假设默认只有这一个路由
+   * @description:返回值与将要赋值的不是非常的一一对应怎么解决？一个个赋值？看起来太愚蠢了?
    */
   {
-    path: "/DynamicRoutes",
-    name: "DynamicRoutes",
-    component: () => import('@/views/DynamicRoutes/IndexView.vue')
+    path: "/dev/SolveRequestResponse",
+    name: "dev-SolveRequestResponse",
+    component: () => import("@/views/Dev/SolveRequestResponse.vue"),
   },
   /**
   * @description:如何持久化vuex

@@ -1,3 +1,3 @@
-import './api/api'
-import './api/dev'
-import './api/mockjs'
+import '@/Mock/api/api'
+import '@/Mock/api/dev'
+import '@/Mock/api/mockjs'
