@@ -228,5 +228,22 @@ const dev = [
     name: "Dev-PlaceholderStyle",
     component: () => import('@/views/Dev/PlaceholderStyle.vue')
   },
+  /**
+  * @description:路由参数解耦，通过props拿到路由参数
+  */
+  {
+    path: "/Dev/PropsParams/:id",
+    name: "Dev-PropsParams",
+    props: true,
+    component: () => import('@/views/Dev/PropsParams.vue')
+  },
+  /**
+  * @description:功能组件使用
+  */
+  {
+    path: "/Dev/FunctionalComponet",
+    name: "Dev-FunctionalComponet",
+    component: () => import('@/views/Dev/FunctionalComponetView.vue')
+  },
 ];
 export default dev;
