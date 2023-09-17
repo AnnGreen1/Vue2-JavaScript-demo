@@ -245,5 +245,28 @@ const dev = [
     name: "Dev-FunctionalComponet",
     component: () => import('@/views/Dev/FunctionalComponetView.vue')
   },
+  /**
+  * @description:样式穿透
+  */
+  {
+    path: "/Dev/StylePenetration",
+    name: "Dev-StylePenetration",
+    component: () => import('@/views/Dev/StylePenetration/IndexView.vue')
+  },
+  {
+    path: "/Dev/StylePenetration/OneView",
+    name: "Dev-StylePenetration-OneView",
+    component: () => import('@/views/Dev/StylePenetration/OneView.vue')
+  },
+  {
+    path: "/Dev/StylePenetration/OtherView",
+    name: "Dev-StylePenetration-OtherView",
+    component: () => import('@/views/Dev/StylePenetration/OtherView.vue')
+  },
+  {
+    path: "/Dev/StylePenetration/Less",
+    name: "Dev-StylePenetration-Less",
+    component: () => import('@/views/Dev/StylePenetration/LessView.vue')
+  },
 ];
 export default dev;
