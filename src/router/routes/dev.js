@@ -268,5 +268,13 @@ const dev = [
     name: "Dev-StylePenetration-Less",
     component: () => import('@/views/Dev/StylePenetration/LessView.vue')
   },
+  /**
+ * @description:CSS Modules的使用
+ */
+  {
+    path: "/Dev/CSSModules",
+    name: "Dev-CSSModules",
+    component: () => import('@/views/Dev/CSSModules.vue')
+  },
 ];
 export default dev;

@@ -30,5 +30,14 @@ module.exports = defineConfig({
       filename: "other.html",
       title: "Other Page"
     }
-  }
+  },
+  css: {
+    loaderOptions: {
+      css: {
+        modules: {
+          localIdentName: '[name]-[hash:base64:8]',
+        },
+      },
+    },
+  },
 })

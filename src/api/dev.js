@@ -19,9 +19,20 @@ export const DynamicRoutes = () => {
     })
 };
 
-export const RsponseResult = () => {
+export const RsponseResult = (data) => {
+    data = data || {}
     return request({
         url: `http://localhost/RsponseResult`,
         method: "post",
+        data
+    })
+};
+
+export const RequestRsponse= (data) => {
+    data = data || {}
+    return request({
+        url: `http://localhost/RequestRsponse`,
+        method: "post",
+        data
     })
 };

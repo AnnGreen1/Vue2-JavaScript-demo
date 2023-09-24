@@ -15,6 +15,14 @@
     <div class="demo-block">
       <button @click="deleteProperty">deleteProperty</button>
     </div>
+
+    <div class="demo-block">
+      <button @click="requestFun">request</button>
+    </div>
+
+    <div class="demo-block">
+      {{ data }}
+    </div>
   </div>
 </template>
 
@@ -31,7 +39,7 @@
  * SolveRequestResponse，但是却主要解决了对象和数组的响应式问题，此问题都是直接替换
  * 需要考虑的其实却是能否直接通过this访问到
  */
-import { RsponseResult } from "@/api/dev";
+import { RsponseResult, RequestRsponse } from "@/api/dev";
 export default {
   data() {
     return {
@@ -39,6 +47,7 @@ export default {
       res: "",
       data: "",
       movie: "",
+      director: "",
       actor: "",
       info: {
         time: 0,
@@ -46,6 +55,11 @@ export default {
       },
       infoOther: "",
       music: "",
+      params: {
+        paramA: 1,
+        paramB: 2,
+        paramC: 3,
+      },
     };
   },
   methods: {
@@ -95,6 +109,26 @@ export default {
     deleteProperty() {
       // 不是响应式的
       delete this.info.lang;
+    },
+    requestFun() {
+      console.log(this.params);
+      const { paramA, paramB, paramC, paramD } = this.params;
+      console.log(paramA);
+      console.log(paramB);
+      console.log(paramC);
+      console.log(paramD);
+      // let that = this;
+      RequestRsponse(this.params)
+        .then((res) => {
+          console.log(res);
+          if (res.code == 200) {
+            Object.assign(this.data, res.data);
+            console.log(this.data);
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+        });
     },
   },
   created() {
