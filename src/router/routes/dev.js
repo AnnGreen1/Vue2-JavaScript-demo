@@ -276,5 +276,23 @@ const dev = [
     name: "Dev-CSSModules",
     component: () => import('@/views/Dev/CSSModules.vue')
   },
+  /**
+ * @description:KeepAlive的使用
+ */
+  {
+    path: "/Dev/KeepAlive",
+    name: "Dev-KeepAlive",
+    component: () => import('@/views/Dev/KeepAlive/KeepAlive.vue')
+  },
+  {
+    path: "/Dev/KeepAlive/one",
+    name: "Dev-KeepAlive-One",
+    component: () => import('@/views/Dev/KeepAlive/OneView.vue')
+  },
+  {
+    path: "/Dev/KeepAlive/other",
+    name: "Dev-KeepAlive-Other",
+    component: () => import('@/views/Dev//KeepAlive/OtherView.vue')
+  },
 ];
 export default dev;
