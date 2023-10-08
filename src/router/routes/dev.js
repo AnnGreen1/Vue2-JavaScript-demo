@@ -292,7 +292,15 @@ const dev = [
   {
     path: "/Dev/KeepAlive/other",
     name: "Dev-KeepAlive-Other",
-    component: () => import('@/views/Dev//KeepAlive/OtherView.vue')
+    component: () => import('@/views/Dev/KeepAlive/OtherView.vue')
+  },
+  /**
+   * @description:防止按钮重复点击
+   */
+  {
+    path: "/Dev/PreventReclick",
+    name: "Dev-PreventReclick",
+    component: () => import('@/views/Dev/PreventReclick.vue')
   },
 ];
 export default dev;
