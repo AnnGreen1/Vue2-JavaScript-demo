@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
-        count: 0
+        count: 0,
+        query: ''
     },
     getters: {
-        count: (state) => state.count
+        count: (state) => state.count,
+        query: (state) => state.query
     },
     mutations: {
         SET_COUNT(state, count) {
@@ -19,6 +21,9 @@ export default new Vuex.Store({
         },
         MULTIPLY_COUNT(state, times) {
             state.count = state.count * times;
+        },
+        SET_QUERY(state, query) {
+            state.query = query
         }
     },
     actions: {
