@@ -6,6 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state: {
         count: 0,
+        mapStateCount: 0,
         query: ''
     },
     getters: {
@@ -24,6 +25,9 @@ export default new Vuex.Store({
         },
         SET_QUERY(state, query) {
             state.query = query
+        },
+        CHANGE_MAPSTATECOUNT(state) {
+            state.mapStateCount = state.mapStateCount + 1
         }
     },
     actions: {

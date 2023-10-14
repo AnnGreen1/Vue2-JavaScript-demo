@@ -213,7 +213,7 @@ const dev = [
     component: () => import("@/views/Dev/SolveRequestResponse.vue"),
   },
   /**
-  * @description:如何持久化vuex
+  * @description:vuex常用的几种方式及如何持久化vuex
   */
   {
     path: "/Dev/PersistedVuex",

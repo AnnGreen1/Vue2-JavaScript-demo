@@ -4,6 +4,9 @@
     <button @click="countPlus">count++</button>
     <button @click="DOUBLE">count double</button>
     <button @click="MULTIPLY">count multiply</button>
+    <button @click="CHANGE_MAPSTATECOUNT">{{ mapStateCount }}</button>
+    <!-- 有问题，只能get，不能set -->
+     <button @click="mapStateCount++">mapStateCount++</button>
   </div>
 </template>
 
@@ -11,12 +14,19 @@
 /**
  * 代码实现的重点在 main.js line10 - line26
  */
-import { mapGetters, mapMutations } from "vuex";
+import { mapGetters, mapMutations, mapState } from "vuex";
 export default {
   data() {
     return {};
   },
   computed: {
+    /**
+     * 使用 mapState 也可以直接拿到 State 数据，但是不是响应式的，只能get，不能set
+     */
+    ...mapState({
+      mapStateCount: state => state.mapStateCount,
+       countAlias: 'mapStateCount',
+      }),
     /**
      * mapGetters 辅助函数将 store 中的 getter 映射到局部计算属性，可以直接使用 count 这个计算属性
      */
@@ -26,7 +36,7 @@ export default {
     /**
      * mapMutations 辅助函数将组件中的 methods 映射为 store.commit 调用
      */
-    ...mapMutations(["DOUBLE_COUNT", "MULTIPLY_COUNT"]),
+    ...mapMutations(["DOUBLE_COUNT", "MULTIPLY_COUNT","CHANGE_MAPSTATECOUNT"]),
     countPlus() {
       // 提交 mutation
       this.$store.commit("SET_COUNT", this.count + 1);
