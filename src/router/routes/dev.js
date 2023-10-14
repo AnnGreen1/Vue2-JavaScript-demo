@@ -302,5 +302,13 @@ const dev = [
     name: "Dev-PreventReclick",
     component: () => import('@/views/Dev/PreventReclick.vue')
   },
+  /**
+   * @description:把 base64 值直接赋值给图片的 src 就可以直接展示图片了吗？
+   */
+  {
+    path: "/Dev/Base64Img",
+    name: "Dev-Base64Img",
+    component: () => import('@/views/Dev/Base64Img.vue')
+  },
 ];
 export default dev;
