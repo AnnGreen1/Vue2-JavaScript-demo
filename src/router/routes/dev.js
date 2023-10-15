@@ -310,5 +310,13 @@ const dev = [
     name: "Dev-Base64Img",
     component: () => import('@/views/Dev/Base64Img.vue')
   },
+  /**
+   * @description:动态组件的使用
+   */
+  {
+    path: "/Dev/component",
+    name: "Dev-component",
+    component: () => import('@/views/Dev/Component/Index.vue')
+  },
 ];
 export default dev;
