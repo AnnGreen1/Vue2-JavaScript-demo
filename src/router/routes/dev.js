@@ -311,7 +311,7 @@ const dev = [
     component: () => import('@/views/Dev/Base64Img.vue')
   },
   /**
-   * @description:动态组件的使用
+   * @description:动态组件的使用：如果想在同一个地方渲染不同的组件可以使用动态组件的方法
    */
   {
     path: "/Dev/component",
