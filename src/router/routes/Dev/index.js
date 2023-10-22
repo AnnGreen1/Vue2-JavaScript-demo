@@ -87,5 +87,13 @@ const devRoute = [
     name: "dev-ErrorMessage",
     component: () => import("@/views/Dev/ErrorMessage.vue"),
   },
+   /**
+   * @description:给 radio 的 v-model 赋值可以选中，但是再次点击其他选项无法切换选中？
+   */
+   {
+    path: "/dev/RadioSelected",
+    name: "dev-RadioSelected",
+    component: () => import("@/views/Dev/RadioSelected.vue"),
+  },
 ];
 export default devRoute;
