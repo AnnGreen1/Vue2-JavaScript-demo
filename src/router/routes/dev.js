@@ -326,5 +326,13 @@ const dev = [
     name: "Dev-RouterResolve",
     component: () => import('@/views/Dev/RouterResolve.vue')
   },
+  /**
+   * @description:如何在新标签页打开一个路由？
+   */
+  {
+    path: "/Dev/BindBackground",
+    name: "Dev-BindBackground",
+    component: () => import('@/views/Dev/BindBackground.vue')
+  },
 ];
 export default dev;
