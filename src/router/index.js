@@ -25,7 +25,7 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
+    path: '/about/:talkId',
     name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

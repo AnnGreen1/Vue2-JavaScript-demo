@@ -318,5 +318,13 @@ const dev = [
     name: "Dev-component",
     component: () => import('@/views/Dev/Component/Index.vue')
   },
+  /**
+   * @description:动态组件的使用：如果想在同一个地方渲染不同的组件可以使用动态组件的方法
+   */
+  {
+    path: "/Dev/RouterResolve",
+    name: "Dev-RouterResolve",
+    component: () => import('@/views/Dev/RouterResolve.vue')
+  },
 ];
 export default dev;
