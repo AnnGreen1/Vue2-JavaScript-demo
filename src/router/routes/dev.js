@@ -319,7 +319,7 @@ const dev = [
     component: () => import('@/views/Dev/Component/Index.vue')
   },
   /**
-   * @description:动态组件的使用：如果想在同一个地方渲染不同的组件可以使用动态组件的方法
+   * @description:如何在新标签页打开一个路由？
    */
   {
     path: "/Dev/RouterResolve",
