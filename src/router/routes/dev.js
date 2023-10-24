@@ -334,5 +334,34 @@ const dev = [
     name: "Dev-BindBackground",
     component: () => import('@/views/Dev/BindBackground.vue')
   },
+  /**
+   * @description:Prop 的大小写 (camelCase vs kebab-case)
+   */
+  {
+    path: "/Dev/PropsNamingRules",
+    name: "Dev-PropsNamingRules",
+    component: () => import('@/views/Dev/PropsNamingRules.vue')
+  },
+   /**
+   * @description:Vue2.7 从 Vue3 移植的特性（不过肯定没有 Vue3 好用，详见 https://v2.cn.vuejs.org/v2/guide/migration-vue-2-7.html#与-Vue-3-的行为差异）
+   * 1. 组合式 api
+   * 2. setup 语法糖
+   * 3. 单文件组件 CSS v-bind（没实现，回来要看一下如如何实现的）
+   */
+   {
+    path: "/Dev/BackportedFeatures/SetUp",
+    name: "Dev-BackportedFeatures-SetUp",
+    component: () => import('@/views/Dev/BackportedFeatures/Setup.vue')
+  },
+  {
+    path: "/Dev/BackportedFeatures/CompositionAPI",
+    name: "Dev-BackportedFeatures-CompositionAPI",
+    component: () => import('@/views/Dev/BackportedFeatures/CompositionAPI.vue')
+  },
+  {
+    path: "/Dev/BackportedFeatures/CSSbind",
+    name: "Dev-BackportedFeatures-CSSbind",
+    component: () => import('@/views/Dev/BackportedFeatures/CSSbind.vue')
+  },
 ];
 export default dev;
