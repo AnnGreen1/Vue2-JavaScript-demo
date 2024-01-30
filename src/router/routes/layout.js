@@ -18,6 +18,11 @@ const layout = [
         name: "devabout",
         component: () => import("@/views/layout/components/AboutView.vue"),
       },
+      {
+        path: "/rootroute",
+        name: "rootroute",
+        component: () => import("@/views/layout/components/AboutView.vue"),
+      },
     ],
   },
 ];

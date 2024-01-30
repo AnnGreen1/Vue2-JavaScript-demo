@@ -342,13 +342,13 @@ const dev = [
     name: "Dev-PropsNamingRules",
     component: () => import('@/views/Dev/PropsNamingRules.vue')
   },
-   /**
-   * @description:Vue2.7 从 Vue3 移植的特性（不过肯定没有 Vue3 好用，详见 https://v2.cn.vuejs.org/v2/guide/migration-vue-2-7.html#与-Vue-3-的行为差异）
-   * 1. 组合式 api
-   * 2. setup 语法糖
-   * 3. 单文件组件 CSS v-bind（没实现，回来要看一下如如何实现的）
-   */
-   {
+  /**
+  * @description:Vue2.7 从 Vue3 移植的特性（不过肯定没有 Vue3 好用，详见 https://v2.cn.vuejs.org/v2/guide/migration-vue-2-7.html#与-Vue-3-的行为差异）
+  * 1. 组合式 api
+  * 2. setup 语法糖
+  * 3. 单文件组件 CSS v-bind（没实现，回来要看一下如如何实现的）
+  */
+  {
     path: "/Dev/BackportedFeatures/SetUp",
     name: "Dev-BackportedFeatures-SetUp",
     component: () => import('@/views/Dev/BackportedFeatures/Setup.vue')
@@ -363,5 +363,10 @@ const dev = [
     name: "Dev-BackportedFeatures-CSSbind",
     component: () => import('@/views/Dev/BackportedFeatures/CSSbind.vue')
   },
+  {
+    path: "/Dev/WatchSyntax",
+    name: "Dev-WatchSyntax",
+    component: () => import('@/views/Dev/WatchSyntax.vue')
+  }
 ];
 export default dev;
