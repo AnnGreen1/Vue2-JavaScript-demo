@@ -1,5 +1,6 @@
 import componentsOthersRoute from './others'
 import componentsBasic from './Basic'
+import componentsData from './Data'
 const componentsRoute = [
     // {
     //     path:'/DataIndex',
@@ -7,6 +8,7 @@ const componentsRoute = [
     //     component: () => import('@/views/Data/DataIndex.vue')
     // },
     ...componentsOthersRoute,
-    ...componentsBasic
+    ...componentsBasic,
+    ...componentsData
 ];
 export default componentsRoute;
