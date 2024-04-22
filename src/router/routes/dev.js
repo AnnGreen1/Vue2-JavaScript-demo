@@ -367,6 +367,11 @@ const dev = [
     path: "/Dev/WatchSyntax",
     name: "Dev-WatchSyntax",
     component: () => import('@/views/Dev/WatchSyntax.vue')
+  },
+  {
+    path: "/Dev/IfShow",
+    name: "Dev-IfShow",
+    component: () => import('@/views/Dev/IfShow.vue')
   }
 ];
 export default dev;
