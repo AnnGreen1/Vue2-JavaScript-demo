@@ -95,5 +95,13 @@ const devRoute = [
     name: "dev-RadioSelected",
     component: () => import("@/views/Dev/RadioSelected.vue"),
   },
+   /**
+   * @description:可以通过直接给非组件库内部组件的 dom 添加组件库内部的类名直接实现组件库组件的样式
+   */
+   {
+    path: "/dev/UseElementCSS",
+    name: "dev-UseElementCSS",
+    component: () => import("@/views/Dev/UseElementCSS.vue"),
+  },
 ];
 export default devRoute;
